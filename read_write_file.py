@@ -2,7 +2,7 @@ import csv
 import sys
 import time as custom_time
 import json
-from numpyencoder-master.numpyencoder.numpyencoder import NumpyEncoder
+from numpyencoder import NumpyEncoder
 
 maxInt = sys.maxsize
 while True: # decrease the maxInt value by factor 10 as long as the OverflowError occurs

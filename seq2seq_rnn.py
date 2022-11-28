@@ -26,11 +26,11 @@ from read_write_file import *
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
 from spacy import displacy
-from spacy.lemmatizer import Lemmatizer, ADJ, NOUN, VERB
+#from spacy.lemmatizer import Lemmatizer, ADJ, NOUN, VERB
 
 nlp = spacy.load('en_core_web_lg')
-nlp.add_pipe(nlp.create_pipe('sentencizer'), before='parser')
-lemmatizer = nlp.vocab.morphology.lemmatizer
+# nlp.add_pipe(nlp.create_pipe('sentencizer'), before='parser')
+#lemmatizer = nlp.vocab.morphology.lemmatizer
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

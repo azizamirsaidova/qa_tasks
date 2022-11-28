@@ -1,0 +1,7 @@
+[
+    "boolean", 
+    "literal,date", 
+    "literal,number", 
+    "literal,string", 
+    "resource"
+]
